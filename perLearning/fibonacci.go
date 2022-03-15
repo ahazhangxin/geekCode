@@ -29,7 +29,7 @@ func add(a []int, num, index int) []int {
 	return result
 }
 
-func delete(a []int, index int) []int {
+func myDelete(a []int, index int) []int {
 	if index > len(a) || index < 0 {
 		return a
 	}
@@ -40,7 +40,7 @@ func main() {
 	// fibonacci 验证，用的递归
 	fmt.Println(fibonacci(5))
 
-	// 验证 add and delete
+	// 验证 add and myDelete
 	a := []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	fmt.Println(a)
 	fmt.Println(len(a), cap(a))
@@ -50,7 +50,7 @@ func main() {
 	fmt.Println(b)
 	fmt.Println(len(a), cap(a))
 
-	c := delete(a, 4)
+	c := myDelete(a, 4)
 	fmt.Println(a)
 	fmt.Println(b)
 	fmt.Println(c)
