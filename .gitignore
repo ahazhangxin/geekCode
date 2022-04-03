@@ -1,0 +1,4 @@
+*.o
+/vendor/
+**/logs/
+.idea/
