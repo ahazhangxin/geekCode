@@ -1,0 +1,11 @@
+Key,Count,Size,NeverExpire,AvgTtl(excluded never expire)
+len5000_50k:*,50000,0.000 Bytes,50000,0
+len10_50k:*,50000,0.000 Bytes,50000,0
+len5000_10k:*,10000,0.000 Bytes,10000,0
+len5000_500k:*,500000,0.000 Bytes,500000,0
+len10_500k:*,500000,0.000 Bytes,500000,0
+len1000_500k:*,500000,0.000 Bytes,500000,0
+len1000_50k:*,50000,0.000 Bytes,50000,0
+len1000_10k:*,10000,0.000 Bytes,10000,0
+len10_10k:*,10000,0.000 Bytes,10000,0
+key:*,1,0.000 Bytes,1,0
